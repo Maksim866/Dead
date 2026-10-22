@@ -1,0 +1,32 @@
+[23:34:24 INFORMATION] [src/Boot.hx:242 Boot.initRes] initPak
+[23:34:26 INFORMATION] [src/Boot.hx:409 Boot.logClientInfos] Game version : 35, date : 2023-10-01, git hash : 62334b035788ed32c7c43cbd3ae6d2f3c79f52d3
+[23:34:26 INFORMATION] [src/Boot.hx:410 Boot.logClientInfos] System : Windows
+[23:34:26 INFORMATION] [src/Boot.hx:415 Boot.logClientInfos] DirectX device : NVIDIA GeForce RTX 4060, version: 11.1 
+[23:34:26 INFORMATION] [src/Main.hx:130 Main.initChroma] chroma.Init
+[23:34:26 INFORMATION] [src/Main.hx:93 Main.new] discord.Init
+[23:34:27 INFORMATION] [src/Lang.hx:474 Lang.set] Init font with lang id ru, chars cyrillic and font classic
+[23:34:39 FATAL] [src/tool/File.hx:91 tool.File.getBytes] Could not read save file.
+[23:34:39 FATAL] [src/tool/File.hx:91 tool.File.getBytes] SysError(Can't read save/user_0.dat) 
+ 
+Called from sys.io.$File.getBytes (D:\Gitlab-Runner\builds\HQ33PpjF\1\motion-twin\deadcells\client\.tools\haxe\std/hl/_std/sys/io/File.hx line 44)
+Called from hxd.$File.getBytes (hxd/File.hx line 279)
+Called from tool.$File.getBytes (tool/File.hx line 88)
+Called from tool.$File.getBytes (tool/File.hx line 87)
+Called from tool.$Save.tryLoad (tool/Save.hx line 160)
+Called from pr.TitleScreen.playMenu (pr/TitleScreen.hx line 422)
+Called from pr.TitleScreen.~mainMenu.0 (pr/TitleScreen.hx line 345)
+Called from pr.TitleScreen.~addMenu.0 (pr/TitleScreen.hx line 687)
+Called from h2d.Interactive.handleEvent (h2d/Interactive.hx line 163)
+Called from h2d.Scene.handleEvent (h2d/Scene.hx line 312)
+Called from hxd.SceneEvents.emitEvent (hxd/SceneEvents.hx line 128)
+Called from hxd.SceneEvents.checkEvents (hxd/SceneEvents.hx line 279)
+Called from hxd.App.mainLoop (hxd/App.hx line 159)
+Called from Boot.mainLoop (Boot.hx line 768)
+Called from hxd.$System.mainLoop (hxd/System.hl.hx line 70)
+Called from hxd.$System.runMainLoop (hxd/System.hl.hx line 127)
+Called from hxd.$System.runMainLoop (hxd/System.hl.hx line 123)
+Called from haxe.$Timer.~delay.0 (D:\Gitlab-Runner\builds\HQ33PpjF\1\motion-twin\deadcells\client\.tools\haxe\std/haxe/Timer.hx line 143)
+Called from haxe.$Timer.~__constructor__.0 (D:\Gitlab-Runner\builds\HQ33PpjF\1\motion-twin\deadcells\client\.tools\haxe\std/haxe/Timer.hx line 76)
+Called from haxe.$MainLoop.tick (D:\Gitlab-Runner\builds\HQ33PpjF\1\motion-twin\deadcells\client\.tools\haxe\std/haxe/MainLoop.hx line 174)
+Called from haxe.$EntryPoint.processEvents (D:\Gitlab-Runner\builds\HQ33PpjF\1\motion-twin\deadcells\client\.tools\haxe\std/haxe/EntryPoint.hx line 99)
+Called from haxe.$EntryPoint.run (D:\Gitlab-Runner\builds\HQ33PpjF\1\motion-twin\deadcells\client\.tools\haxe\std/haxe/EntryPoint.hx line 125)
